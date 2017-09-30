@@ -1,4 +1,5 @@
 #coding=utf-8
+#pymysql使用的例子
 from pymysql import cursors,connect
 
 conn = connect(host='127.0.0.1',
