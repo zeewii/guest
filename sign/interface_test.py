@@ -34,7 +34,7 @@ class GetEventListTest(unittest.TestCase):
         self.assertEqual(result['status'], 200)
         self.assertEqual(result['message'], 'success')
         self.assertIn('iphone8', result['data']['name'])
-        self.assertEqual(result['data']['start_time'], '2017-09-28T06:00:00')
+        self.assertEqual(result['data']['start_time'], '2017-12-25T12:00:00')
 
 
 
